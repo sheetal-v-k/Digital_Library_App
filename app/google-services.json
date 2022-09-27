@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "100107821304",
+    "firebase_url": "https://digitalbooks-c1e6b.firebaseio.com",
+    "project_id": "digitalbooks-c1e6b",
+    "storage_bucket": "digitalbooks-c1e6b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:100107821304:android:a3084f612b2a7900d49b0d",
+        "android_client_info": {
+          "package_name": "com.example.digitallibrary"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "100107821304-qst0nkpb5bu8g8bh45a3djmther0t276.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.digitallibrary",
+            "certificate_hash": "592bb37a9880af5301c7999102f48b7cff84464a"
+          }
+        },
+        {
+          "client_id": "100107821304-ppcaoh93pil394gijr0k0cfgskf0voa5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCJEO3I5tT6FgWfimg9ZMaIv2fuWjIR6Ys"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "100107821304-ppcaoh93pil394gijr0k0cfgskf0voa5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

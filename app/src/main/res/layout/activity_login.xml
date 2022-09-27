@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Login"
+    android:background="@color/colorbg">
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="53dp"
+        app:srcCompat="@drawable/logo1" />
+
+    <EditText
+        android:id="@+id/edita"
+        android:layout_marginTop="400dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Your email id"
+        android:inputType="textPersonName"
+        />
+
+    <EditText
+        android:id="@+id/editb"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edita"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPersonName"
+        android:password="true"
+        />
+    <Button
+        android:id="@+id/loginbtna"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editb"
+        android:layout_marginTop="45dp"
+        android:layout_marginLeft="80dp"
+        android:text="Login" />
+    <Button
+        android:id="@+id/registerbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editb"
+        android:layout_marginTop="45dp"
+        android:layout_marginLeft="240dp"
+        android:text="Register" />
+</RelativeLayout>

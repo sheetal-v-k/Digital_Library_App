@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Login"
+    android:background="@color/colorbg">
+
+    <EditText
+        android:id="@+id/edit1"
+        android:layout_marginTop="100dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="First Name"
+        android:inputType="textPersonName"
+        />
+
+    <EditText
+        android:id="@+id/edit2"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edit1"
+        android:ems="10"
+        android:hint="Second Name"
+        android:inputType="textPersonName"
+        />
+
+    <EditText
+        android:id="@+id/edit3"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Password"
+        android:password="true"
+        android:layout_below="@+id/edit2"
+        android:inputType="textPersonName"
+        />
+    <EditText
+        android:id="@+id/edit4"
+        android:layout_width="match_parent"
+        android:layout_marginTop="20dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edit3"
+        android:ems="10"
+        android:hint="Email ID"
+        android:inputType="textPersonName"
+        />
+    <EditText
+        android:id="@+id/edit5"
+        android:layout_width="match_parent"
+        android:layout_marginTop="20dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edit4"
+        android:ems="10"
+        android:hint="Phone No"
+        android:inputType="textPersonName"
+        />
+
+    <Button
+        android:id="@+id/loginbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edit5"
+        android:layout_marginTop="45dp"
+        android:layout_marginLeft="100dp"
+        android:text="Login" />
+
+    <Button
+        android:id="@+id/regiterbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edit5"
+        android:layout_marginTop="45dp"
+        android:layout_marginLeft="200dp"
+        android:text="Register" />
+
+</RelativeLayout>

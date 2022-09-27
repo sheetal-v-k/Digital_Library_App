@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorbg"
+    >
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Theoritical Computer Science"
+        />
+    <Button
+        android:id="@+id/btn2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Computer Engineering" />
+    <Button
+        android:id="@+id/btn3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Computer Applications"
+        />
+
+    <LinearLayout
+        style="?android:attr/buttonBarStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="290dp"
+
+
+        >
+
+        <ImageButton
+            android:id="@+id/bookshelfpg"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="200dp"
+            android:layout_gravity="bottom"
+            android:layout_weight="1"
+            android:adjustViewBounds="false"
+            android:baselineAlignBottom="false"
+            android:baselineAligned="false"
+            android:cropToPadding="true"
+            android:foregroundGravity="bottom"
+            android:src="@drawable/ic_arrow_downward_black_24dp" />
+
+        <ImageButton
+            android:id="@+id/libpg"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="200dp"
+            android:layout_weight="1"
+            android:src="@drawable/ic_desktop_windows_black_24dp"
+
+            />
+
+        <ImageButton
+            android:id="@+id/profilepg"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:baselineAlignBottom="false"
+            android:layout_marginTop="200dp"
+            android:src="@drawable/ic_account_circle_black_24dp" />
+
+
+
+    </LinearLayout>
+
+</LinearLayout>
